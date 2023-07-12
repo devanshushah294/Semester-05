@@ -2,5 +2,18 @@
     ViewData["Title"] = "Privacy Policy";
 }
 <h1>@ViewData["Title"]</h1>
-
+<h2>Hello form the privacy page. I am Devanshu Shah from Darshan University, Rajkot.</h2>
 <p>Use this page to detail your site's privacy policy.</p>
+<ul>
+    @foreach(var a in ViewBag.list1)
+    {
+        <li>@a</li>
+    }
+</ul>
+
+<ul>
+    @foreach(var b in ViewData["list1"] as List<string>)
+    {
+        <li>@b</li>
+    }
+</ul>

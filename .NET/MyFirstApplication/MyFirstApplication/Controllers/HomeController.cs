@@ -20,6 +20,13 @@ namespace MyFirstApplication.Controllers
 
         public IActionResult Privacy()
         {
+            List<string> list1 = new List<string>();
+            list1.Add("Privacy Page");
+            list1.Add("From DotNet Core");
+            list1.Add("in Darshan University");
+            list1.Add("Semester-05");
+            ViewBag.list1 = list1;
+            ViewData["list1"] = list1;
             return View();
         }
 

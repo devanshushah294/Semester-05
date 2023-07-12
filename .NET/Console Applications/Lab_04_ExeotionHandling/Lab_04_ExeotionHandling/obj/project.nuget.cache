@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "GbgPHCllZmUsCnKF42QCngKxttfKGgwAnEearkS3EO9LQSWGouF+OVR1dO2flsBfPAGI4ZBgtcc9JyDHnqJAtg==",
+  "success": true,
+  "projectFilePath": "E:\\Semester-05\\.NET\\Console Applications\\Lab_04_ExeotionHandling\\Lab_04_ExeotionHandling\\Lab_04_ExeptionHandling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\devan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\devan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\devan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

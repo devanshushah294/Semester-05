@@ -1,0 +1,15 @@
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\bin\Debug\net6.0\Programs01.exe
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\bin\Debug\net6.0\Programs01.deps.json
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\bin\Debug\net6.0\Programs01.runtimeconfig.json
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\bin\Debug\net6.0\Programs01.dll
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\bin\Debug\net6.0\Programs01.pdb
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.csproj.AssemblyReference.cache
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.GeneratedMSBuildEditorConfig.editorconfig
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.AssemblyInfoInputs.cache
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.AssemblyInfo.cs
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.csproj.CoreCompileInputs.cache
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.dll
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\refint\Programs01.dll
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.pdb
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\Programs01.genruntimeconfig.cache
+E:\Semester-05\.NET\Console Applications\Programs01\Programs01\obj\Debug\net6.0\ref\Programs01.dll

@@ -1,0 +1,62 @@
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\appsettings.Development.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\appsettings.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.staticwebassets.runtime.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.exe
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.deps.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.runtimeconfig.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.dll
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.pdb
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.csproj.AssemblyReference.cache
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.GeneratedMSBuildEditorConfig.editorconfig
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.AssemblyInfoInputs.cache
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.AssemblyInfo.cs
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.csproj.CoreCompileInputs.cache
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.MvcApplicationPartsAssemblyInfo.cache
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.RazorAssemblyInfo.cache
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.RazorAssemblyInfo.cs
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.Assignment1Lonely.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.build.Assignment1Lonely.props
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Assignment1Lonely.props
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Assignment1Lonely.props
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets.build.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets.development.json
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\scopedcss\bundle\Assignment1Lonely.styles.css
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\scopedcss\projectbundle\Assignment1Lonely.bundle.scp.css
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.dll
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\refint\Assignment1Lonely.dll
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.pdb
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.genruntimeconfig.cache
+E:\Semester-05\.NET\Console Applications\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\ref\Assignment1Lonely.dll
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\appsettings.Development.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\appsettings.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.staticwebassets.runtime.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.exe
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.deps.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.runtimeconfig.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.dll
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\bin\Debug\net6.0\Assignment1Lonely.pdb
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.csproj.AssemblyReference.cache
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.GeneratedMSBuildEditorConfig.editorconfig
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.AssemblyInfoInputs.cache
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.AssemblyInfo.cs
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.csproj.CoreCompileInputs.cache
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.MvcApplicationPartsAssemblyInfo.cache
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.RazorAssemblyInfo.cache
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.RazorAssemblyInfo.cs
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.Assignment1Lonely.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.build.Assignment1Lonely.props
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Assignment1Lonely.props
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Assignment1Lonely.props
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets.build.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\staticwebassets.development.json
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\scopedcss\bundle\Assignment1Lonely.styles.css
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\scopedcss\projectbundle\Assignment1Lonely.bundle.scp.css
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.dll
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\refint\Assignment1Lonely.dll
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.pdb
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\Assignment1Lonely.genruntimeconfig.cache
+E:\Semester-05\.NET\Assignments\Assignment1Lonely\Assignment1Lonely\obj\Debug\net6.0\ref\Assignment1Lonely.dll

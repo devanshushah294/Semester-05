@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Assignment1Lonely.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Assignment1Lonely.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\me.jpg",
+      "PackagePath": "staticwebassets\\img\\me.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-details-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-details-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-details-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-details-3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
+      "PackagePath": "staticwebassets\\vendor\\waypoints\\noframework.waypoints.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Assignment1Lonely.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Assignment1Lonely.props",
+      "PackagePath": "build\\Assignment1Lonely.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Assignment1Lonely.props",
+      "PackagePath": "buildMultiTargeting\\Assignment1Lonely.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Assignment1Lonely.props",
+      "PackagePath": "buildTransitive\\Assignment1Lonely.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
