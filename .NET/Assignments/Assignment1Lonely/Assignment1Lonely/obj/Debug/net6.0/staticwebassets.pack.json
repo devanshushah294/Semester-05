@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\img\\me.jpg"
     },
     {
+      "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\my-image.JPG",
+      "PackagePath": "staticwebassets\\img\\my-image.JPG"
+    },
+    {
       "Id": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
       "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-1.jpg"
     },

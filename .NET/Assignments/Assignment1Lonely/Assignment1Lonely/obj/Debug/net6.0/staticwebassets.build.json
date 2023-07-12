@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NQ3wC6EnNAAVhaH5nJ8Yg9lvJcbjroAl/V4j49Tx40E=",
+  "Hash": "UQ6ZK9QsanVK38ng0Q4cfIxr8Ko3csVNS/CVHMFt/qY=",
   "Source": "Assignment1Lonely",
   "BasePath": "_content/Assignment1Lonely",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\me.jpg"
+    },
+    {
+      "Identity": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\my-image.JPG",
+      "SourceId": "Assignment1Lonely",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\",
+      "BasePath": "_content/Assignment1Lonely",
+      "RelativePath": "img/my-image.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\my-image.JPG"
     },
     {
       "Identity": "E:\\Semester-05\\.NET\\Assignments\\Assignment1Lonely\\Assignment1Lonely\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
