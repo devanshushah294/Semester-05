@@ -78,6 +78,54 @@ namespace MyApp // Note: actual namespace depends on the project name.
             a.Triangle(23, 34);
 
         } 
+        public static void _07_StringMethods()
+        {
+            string str1 = "Devanshu";
+            string str2 = "Shah";
+
+            // concates two strings
+            string concatedString = string.Concat(str1, str2);
+            Console.WriteLine(concatedString);
+            string a = "HelloWorld";
+            string b = "World";
+
+            // Con
+            Console.WriteLine(a.Contains(b));
+            string c = "Hello";
+            string d = string.Copy(c);
+            Console.WriteLine(d);
+            string e = "Hello";
+            string f = "World";
+            Console.WriteLine(e.Equals(f));
+            int index = e.IndexOf('o');
+            Console.WriteLine(b);
+            string insertedString = a.Insert(2, "----");
+            string replacedString = a.Replace("lo", " World ");
+
+
+
+
+
+        }
+        public static void _08_ChangeStringCase()
+        {
+            Console.WriteLine("Enter the string :");
+            string str = Console.ReadLine();
+            char[] charArray = str.ToCharArray();
+            string str2 = "";
+            foreach (char c in charArray)
+            {
+                if (char.IsUpper(c))
+                {
+                    str2 += char.ToLower(c);
+                }
+                else
+                {
+                    str2 += char.ToUpper(c);
+                }
+            }
+            Console.WriteLine(str2);
+        }
         public static void _09_LongestWordInString()
         {
             Console.WriteLine("Enter the string");
@@ -93,14 +141,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
             }
             Console.WriteLine("Longest Word is " + longestString);
         }
-        public static void _10_ChangeCase()
+        public static void _10_ChangeCharacterCase()
         {
-            Console.WriteLine("Enter the string :");
-            string str = Console.ReadLine();
-            str = str.ToUpper();
-            Console.WriteLine(str);
-            str = str.ToLower();
-            Console.WriteLine(str);
+            Console.WriteLine("Enter the character");
+            char a = Console.ReadKey().KeyChar;
+            if (char.IsUpper(a))
+            {
+                Console.WriteLine(char.ToLower(a));
+            }
+            else
+            {
+                Console.WriteLine(char.ToUpper(a));
+            }
         }
         public static void Main(string[] args)
         {
@@ -110,10 +162,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //_04_AbstractDemo();
             //_05_InterfaceDemo();
             //_06_ShapeDemo();
-
+            //_08_ChangeStringCase();
+            //_07_StringMethods();
             //_09_LongestWordInString();
-            _10_ChangeCase();
-            Console.ReadLine();
+            //_10_ChangeCharacterCase();
         }
     }
 }

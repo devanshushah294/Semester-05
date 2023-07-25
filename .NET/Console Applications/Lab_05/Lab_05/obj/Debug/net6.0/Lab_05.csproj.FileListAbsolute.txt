@@ -1,0 +1,15 @@
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\bin\Debug\net6.0\Lab_05.exe
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\bin\Debug\net6.0\Lab_05.deps.json
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\bin\Debug\net6.0\Lab_05.runtimeconfig.json
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\bin\Debug\net6.0\Lab_05.dll
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\bin\Debug\net6.0\Lab_05.pdb
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.csproj.AssemblyReference.cache
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.GeneratedMSBuildEditorConfig.editorconfig
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.AssemblyInfoInputs.cache
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.AssemblyInfo.cs
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.csproj.CoreCompileInputs.cache
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.dll
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\refint\Lab_05.dll
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.pdb
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\Lab_05.genruntimeconfig.cache
+E:\Semester-05\.NET\Console Applications\Lab_05\Lab_05\obj\Debug\net6.0\ref\Lab_05.dll
