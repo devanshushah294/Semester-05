@@ -20,6 +20,18 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXEJyYW5jaFxCcmFuY2hEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Semester-05/.NET/MyFirstApplication/MyFirstApplication/Areas/Validation/Views/Validation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmFsaWRhdGlvblxWaWV3c1xWYWxpZGF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MyFirstApplication/MyFirstApplication/Areas/Validation/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmFsaWRhdGlvblxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MyFirstApplication/MyFirstApplication/Areas/Validation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVmFsaWRhdGlvblxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Semester-05/.NET/MyFirstApplication/MyFirstApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
