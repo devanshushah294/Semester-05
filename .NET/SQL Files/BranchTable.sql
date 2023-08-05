@@ -68,3 +68,13 @@ Begin
 End
 
 Exec [dbo].[PR_MST_Branch_Update] 1,'M.E.','Mechenical'
+
+Create or ALter Procedure [dbo].[PR_MST_Branch_DeleteByPK]
+@BranchID int
+as
+Begin
+	Delete from [dbo].[MST_Branch] 
+	where [dbo].[MST_Branch].[BranchID] = @BranchID
+End
+Exec PR_MST_Branch_DeleteByPK 2
+Exec PR_MST_Branch_SelectAll
