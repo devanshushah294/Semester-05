@@ -47,8 +47,24 @@ Begin
 	(
 		@BranchName,
 		@BranchCode,
-		@Created,
-		@Modified
+		ISNULL(@Created, GETDATE()),
+		ISNULL(@Modified, GETDATE())
 	)
 End
-Exec PR_MST_Branch_Insert 'CSE','210CS1010','2003-2-2','2022-2-3'
+Exec PR_MST_Branch_Insert 'CSE','210CS1010','',''
+
+Create or Alter Procedure [dbo].[PR_MST_Branch_Update]
+@BranchID	int,
+@BranchName varchar(100),
+@BranchCode varchar(100)
+as
+Begin
+	Update [dbo].[MST_Branch] set
+		[dbo].[MST_Branch].[BranchCode] = @BranchCode,
+		[dbo].[MST_Branch].[BranchName] = @BranchName,
+		[dbo].[MST_Branch].[Modified] = GETDATE()
+	where [dbo].[MST_Branch].[BranchID] = @BranchID
+	Select * from [dbo].[MST_Branch] where [dbo].[MST_Branch].[BranchID] = @BranchID
+End
+
+Exec [dbo].[PR_MST_Branch_Update] 1,'M.E.','Mechenical'

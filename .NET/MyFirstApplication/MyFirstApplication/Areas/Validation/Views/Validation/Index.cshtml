@@ -2,9 +2,10 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model MyFirstApplication.Areas.Validation.Models.ValidationModel
-<form method="post">
+<form method="post" role="form" asp-area="Validation" asp-controller="Validation" asp-action="Index">
     <div class="form-group m-2">
         <label for="exampleFormControlInput1">Name</label>
         <input type="text" class="form-control" asp-for="Name" id="exampleFormControlInput1" placeholder="Enter name here">
@@ -27,5 +28,9 @@
     </div>
     <button type="submit">Submit</button>
 </form>
-<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

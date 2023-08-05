@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyFirstApplication.Areas.Validation.Models;
 
 namespace MyFirstApplication.Areas.Validation.Controllers
 {
@@ -7,6 +8,10 @@ namespace MyFirstApplication.Areas.Validation.Controllers
     {
         public IActionResult Index()
         {
+            if(!ModelState.IsValid)
+            {
+                return View("Index1");
+            }
             return View();
         }
     }
