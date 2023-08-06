@@ -1,5 +1,6 @@
----Country Table
+-- Country Table
 
+-- Select All
 Create or Alter Procedure [dbo].[PR_LOC_Country_SelectAll]
 as
 BEGIN
@@ -14,6 +15,7 @@ END
 
 EXEC PR_LOC_Country_SelectAll
 
+-- Select By ID
 Create or Alter Procedure [dbo].[PR_LOC_Country_SelectByCountryID]
 @CountryID int
 as
@@ -31,6 +33,7 @@ END
 
 Execute PR_LOC_Country_SelectByCountryID 1
 
+-- Delete By ID
 Create or Alter Procedure [dbo].[PR_LOC_Country_Delete]
 @CountryID int
 as
@@ -40,6 +43,7 @@ BEGIN
 END
 Execute PR_LOC_Country_Delete 1
 
+-- INSERT
 Create or Alter Procedure [dbo].[PR_LOC_Country_Insert]
 @CountryName varchar(100),
 @CountryCode varchar(50),
@@ -62,7 +66,27 @@ BEGIN
 		ISNULL(@Modified,GETDATE())
 	)
 
-	Select * from [dbo].[LOC_City]
+	Select * from [dbo].[LOC_Country]
 END
 
-EXEC PR_LOC_Country_Insert 
+Create or Alter Procedure [dbo].[PR_LOC_Country_Update]
+@CountryID		int,
+@CountryName	varchar(100),
+@CountryCode	varchar(50),
+@Created		datetime = NULL,
+@Modified		datetime = NULL
+as
+BEGIN
+	Update [dbo].[LOC_Country]
+	set
+		[dbo].[Loc_Country].[CountryName] = @CountryName,
+		[dbo].[Loc_Country].[CountryCode] = @CountryCode,
+		[dbo].[Loc_Country].[Created] = ISNULL(@Created,(Select [dbo].[Loc_Country].[Created] from [dbo].[Loc_Country] where [dbo].[Loc_Country].[CountryID] = @CountryID)),
+		[dbo].[Loc_Country].[Modified] = ISNULL(@Modified,GETDATE())
+	where [dbo].[Loc_Country].[CountryID] = @CountryID
+
+	Select * from [dbo].[LOC_City]
+END
+Exec PR_LOC_Country_Insert 'INDIA','IND','',''
+Exec PR_LOC_Country_Update 1,'INDIA','IND'
+Exec PR_LOC_Country_SelectAll
