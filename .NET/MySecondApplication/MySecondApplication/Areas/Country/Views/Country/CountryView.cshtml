@@ -4,44 +4,33 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@using System.Data
-@model DataTable
-<div class="container">
-    <button class="btn-success">Add new</button>
-    <table class="table">
+
+@model System.Data.DataTable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country View</title>
+</head>
+<body>
+    <h1>Country View</h1>
+
+    <table>
         <thead>
-            <tr> 
-                <th scope="col">Country Name</th>
-                <th scope="col">State Name</th>
-                <th scope="col">State Code</th>
-                <th scope="col">Action</th>
+            <tr>
+                <th>Country ID</th>
+                <th>Country Name</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td scope="row">India</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
-            </tr>
-            <tr>
-                <td scope="row">China</td>
-                <td>India</td>
-                <td>the Bird</td>
-                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
-            </tr>
-            <tr>
-                <td scope="row">India</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
-            </tr>
-            <tr>
-                <td scope="row">China</td>
-                <td>India</td>
-                <td>the Bird</td>
-                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
-            </tr> 
+            @foreach (System.Data.DataRow row in Model.Rows)
+            {
+                <tr>
+                    <td>@row["CountryID"]</td>
+                    <td>@row["CountryName"]</td>
+                </tr>
+            }
         </tbody>
     </table>
-</div>
+</body>
+</html>

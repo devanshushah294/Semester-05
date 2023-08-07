@@ -18,8 +18,15 @@ namespace MySecondApplication.Areas.Country.Controllers
         {
             String connectionStr = this._configuration.GetConnectionString("myConnectionString");
             DataTable dt = new DataTable();
-            SqlCommand command = connectionStr.CreateCommand();
-            return View();
+            SqlConnection conn = new SqlConnection(connectionStr);
+            conn.Open();
+            SqlCommand objCmd = conn.CreateCommand();
+            objCmd.CommandType = CommandType.StoredProcedure;
+            objCmd.CommandText = "PR_LOC_Country_SelectAll";
+            SqlDataReader objDataReader = objCmd.ExecuteReader();
+            dt.Load(objDataReader);
+            conn.Close();
+            return View("CountryView", dt);
         }
     }
 }
