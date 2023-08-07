@@ -50,3 +50,11 @@ Begin
 	where [dbo].[MST_Student].[StudentID] = @StundentID
 End
 EXEC PR_MST_Student_GetStudentByID 4
+
+Create or ALter PROCEDURE [dbo].[PR_MST_Student_GetStudentByID]
+@StundentID int
+as
+Begin
+	Delete from [dbo].[MST_Student]
+	where [dbo].[MST_Student].[StudentID] = @StundentID
+End

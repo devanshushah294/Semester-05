@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System.Data
+@model DataTable
+<div class="container">
+    <button class="btn-success">Add new</button>
+    <table class="table">
+        <thead>
+            <tr> 
+                <th scope="col">Country Name</th>
+                <th scope="col">State Name</th>
+                <th scope="col">State Code</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">India</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+                <td scope="row">China</td>
+                <td>India</td>
+                <td>the Bird</td>
+                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+                <td scope="row">India</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+                <td scope="row">China</td>
+                <td>India</td>
+                <td>the Bird</td>
+                <td><button class="btn-primary mx-1">Edit</button><button class="btn-danger">Delete</button></td>
+            </tr> 
+        </tbody>
+    </table>
+</div>
