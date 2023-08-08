@@ -28,5 +28,38 @@ namespace MySecondApplication.Areas.Country.Controllers
             conn.Close();
             return View("CountryView", dt);
         }
-    }
+        
+        public IActionResult DeleteCountry(int id)
+        {
+            try
+            {
+                String connectionStr = this._configuration.GetConnectionString("myConnectionString");
+                SqlConnection conn = new SqlConnection(connectionStr);
+                conn.Open();
+                SqlCommand objCmd = conn.CreateCommand();
+                objCmd.CommandType = CommandType.StoredProcedure;
+                objCmd.CommandText = "PR_LOC_Country_Delete"; // Assuming you have a stored procedure for deleting a country
+                objCmd.Parameters.AddWithValue("@CountryID", id);
+                int rowsAffected = objCmd.ExecuteNonQuery();
+                conn.Close();
+
+                if (rowsAffected > 0)
+                {
+                    // Successful deletion
+                    return RedirectToAction("CountryView");
+                }
+                else
+                {
+                    // Deletion failed
+                    // You can handle this scenario according to your application's requirements
+                    return RedirectToAction("CountryView"); // Redirect back to the list view
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                // You can log the exception, show an error message, or redirect to an error page
+                return RedirectToAction("CountryView"); // Redirect back to the list view
+            }
+        }
 }

@@ -15,19 +15,29 @@
 <body>
     <h1>Country View</h1>
 
-    <table>
+    <table class="table">
         <thead>
             <tr>
-                <th>Country ID</th>
-                <th>Country Name</th>
+                <th scope="col">Country Name</th>
+                <th scope="col">Country Code</th>
+                <th scope="col">Created</th>
+                <th scope="col">Modified</th>
             </tr>
         </thead>
         <tbody>
             @foreach (System.Data.DataRow row in Model.Rows)
             {
                 <tr>
-                    <td>@row["CountryID"]</td>
-                    <td>@row["CountryName"]</td>
+                    <th scope="row">@row["CountryName"]</th>
+                    <td>@row["CountryCode"]</td>
+                    <td>@row["Created"]</td>
+                    <td>@row["Modified"]</td>
+                    <td>
+                        <form method="post" asp-area="Country" asp-controller="Country" asp-action="DeleteCountry" asp-route-id="@row["CountryID"]">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                        <a asp-action="EditCountry" asp-route-id="@row["CountryId"]" class="btn btn-primary">Edit</a>
+                    </td>
                 </tr>
             }
         </tbody>
