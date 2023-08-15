@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Semester-05\.NET\MySecondApplication\MySecondApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Branch/Views/Branch/BranchAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXEJyYW5jaFxCcmFuY2hBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Branch/Views/Branch/BranchView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXEJyYW5jaFxCcmFuY2hWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Branch/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Branch/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Country/Views/Country/CountryAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xDb3VudHJ5XENvdW50cnlBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Country/Views/Country/CountryView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xDb3VudHJ5XENvdW50cnlWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +46,38 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Country/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/State/Views/State/StateAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcU3RhdGVcU3RhdGVBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/State/Views/State/StateView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcU3RhdGVcU3RhdGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/State/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/State/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Student/Views/Student/StudentAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTdHVkZW50XFN0dWRlbnRBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Student/Views/Student/StudentView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTdHVkZW50XFN0dWRlbnRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Student/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Student/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Views/Home/Index.cshtml]

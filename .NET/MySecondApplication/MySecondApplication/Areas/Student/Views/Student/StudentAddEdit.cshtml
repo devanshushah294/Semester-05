@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model MySecondApplication.Areas.Student.Models.StudentModel;
+<form method="post">
+    <div class="form-group">
+        <label>Student Name</label>
+        <input type="email" class="form-control" asp-for="StudentName" placeholder="Enter Student Name">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label>Mobile No</label>
+        <input asp-for="MobileNoStudent" type="text" class="form-control" id="exampleInputPassword1" placeholder="Mobile No of Student">
+    </div>
+    <div class="form-group">
+        <label>City</label>
+        @Html.DropDownListFor(model => model.SelectedCityId, new SelectList(Model.Cities, "CityId", "CityName"), "Select City", new { @class = "form-control" })
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

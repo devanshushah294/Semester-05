@@ -6,41 +6,50 @@
 }
 
 @model System.Data.DataTable
+<script>
+    function confirmDelete(countryId) {
+        if (confirm("Are you sure you want to delete this country?")) {
+            // If the user confirms, submit the delete form
+            document.getElementById("deleteForm_" + countryId).submit();
+        } else {
+            // If the user cancels, prevent form submission
+            event.preventDefault();
+        }
+    }
+</script>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Country View</title>
-</head>
-<body>
-    <h1>Country View</h1>
+<form method="post" asp-area="Country" asp-controller="Country" asp-action="CountryAdd">
+    <button type="submit" class="btn btn-success">Add Country</button>
+</form>
+<h1>Country View</h1>
 
-    <table class="table">
-        <thead>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Country Name</th>
+            <th scope="col">Country Code</th>
+            <th scope="col">Created</th>
+            <th scope="col">Modified</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (System.Data.DataRow row in Model.Rows)
+        {
             <tr>
-                <th scope="col">Country Name</th>
-                <th scope="col">Country Code</th>
-                <th scope="col">Created</th>
-                <th scope="col">Modified</th>
+                <th scope="row">@row["CountryName"]</th>
+                <td>@row["CountryCode"]</td>
+                <td>@row["Created"]</td>
+                <td>@row["Modified"]</td>
+                <td class="d-flex justify-content-between align-items-right">
+                    <form method="post" asp-area="Country" asp-controller="Country" asp-action="DeleteCountry" asp-route-id="@row["CountryID"]">
+                        <button type="submit" class="btn btn-danger" onclick="confirmDelete('@row["CountryID"]')">Delete</button>
+                    </form>
+                    <form method="post" asp-area="Country" asp-controller="Country" asp-action="CountryAddEdit" asp-route-id="@row["CountryID"]">
+                        <button type="submit" class="btn btn-primary ml-2">Edit</button>
+                    </form>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (System.Data.DataRow row in Model.Rows)
-            {
-                <tr>
-                    <th scope="row">@row["CountryName"]</th>
-                    <td>@row["CountryCode"]</td>
-                    <td>@row["Created"]</td>
-                    <td>@row["Modified"]</td>
-                    <td>
-                        <form method="post" asp-area="Country" asp-controller="Country" asp-action="DeleteCountry" asp-route-id="@row["CountryID"]">
-                            <button type="submit" class="btn btn-danger">Delete</button>
-                        </form>
-                        <a asp-action="EditCountry" asp-route-id="@row["CountryId"]" class="btn btn-primary">Edit</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</body>
-</html>
+        }
+    </tbody>
+</table>
+

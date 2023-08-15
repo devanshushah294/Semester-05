@@ -1,4 +1,6 @@
 Use Student_Reginstration
+
+-- Select All
 Create or Alter Procedure [dbo].[PR_MST_Branch_SelectAll]
 as
 Begin
@@ -13,6 +15,7 @@ End
 
 Execute PR_MST_Branch_SelectAll
 
+-- Select By PK
 Create or Alter Procedure [dbo].[PR_MST_Branch_SelectByBranchID]
 @branchID int
 as
@@ -29,6 +32,7 @@ Begin
 End
 Execute PR_MST_Branch_SelectByBranchID 10
 
+-- Insert
 Create or Alter Procedure [dbo].[PR_MST_Branch_Insert]
 @BranchName varchar(100),
 @BranchCode varchar(100),
@@ -53,6 +57,8 @@ Begin
 End
 Exec PR_MST_Branch_Insert 'CSE','210CS1010','',''
 
+
+-- Update By PK
 Create or Alter Procedure [dbo].[PR_MST_Branch_Update]
 @BranchID	int,
 @BranchName varchar(100),
@@ -69,6 +75,8 @@ End
 
 Exec [dbo].[PR_MST_Branch_Update] 1,'M.E.','Mechenical'
 
+
+-- Delete by PK
 Create or ALter Procedure [dbo].[PR_MST_Branch_DeleteByPK]
 @BranchID int
 as
