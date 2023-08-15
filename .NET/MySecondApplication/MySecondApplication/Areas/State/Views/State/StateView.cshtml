@@ -24,11 +24,11 @@
         {
             <tr>
                 <td>@row["StateName"]</td>
-                <td>@row["CountryID"]</td>
+                <td>@row["CountryName"]</td>
                 <td>@row["StateCode"]</td>
                 <td>@row["Created"]</td>
                 <td>@row["Modified"]</td>
-                <td>
+                <td class="d-flex justify-content-between align-items-right">
                     <form method="post" asp-area="State" asp-controller="State" asp-action="DeleteState" asp-route-StateID="@row["StateID"]">
                         <button type="submit" class="btn btn-danger">Delete</button>
                     </form>

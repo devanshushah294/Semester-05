@@ -13,8 +13,12 @@ BEGIN
 		[dbo].[LOC_State].[CountryID],
 		[dbo].[LOC_State].[StateCode],
 		[dbo].[LOC_State].[Created],
-		[dbo].[LOC_State].[Modified]
+		[dbo].[LOC_State].[Modified],
+		[dbo].[LOC_Country].[CountryName]
 	from [dbo].[LOC_State]
+
+	INNER JOIN [dbo].[LOC_Country]
+	on [dbo].[LOC_State].[CountryID] = [dbo].[LOC_Country].[CountryID]
 END
 
 --select By StateID
