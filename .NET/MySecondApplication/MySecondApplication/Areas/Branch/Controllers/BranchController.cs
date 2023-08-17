@@ -52,7 +52,7 @@ namespace MySecondApplication.Areas.Branch.Controllers
                 return View();
             }
         }
-        public IActionResult BranchDelete(int id)
+        public IActionResult DeleteBranch(int id)
         {
             string connectionString = this._configuration.GetConnectionString("myConnectionString");
             SqlConnection conn = new SqlConnection(connectionString);

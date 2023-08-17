@@ -75,4 +75,42 @@ Begin
 	where [dbo].[LOC_City].[CityID] = @CityID
 End
 
-Create or Alter Procedure [dbo].[PR_LOC_City_]
+Create or Alter Procedure [dbo].[PR_LOC_City_DeleteByCityID]
+@CityID int
+as
+Begin
+	Delete from LOC_City
+	where [dbo].[LOC_City].[CityID] = @CityID
+End
+
+Select * from LOC_City
+
+Create or Alter Procedure [dbo].[PR_LOC_City_Insert]
+@CityName varchar(100),
+@CityCode varchar(50),
+@StateID int,
+@CountryID int
+as
+Begin
+	Insert into LOC_City
+	(
+		[dbo].[LOC_City].[CityName],
+		[dbo].[LOC_City].[CityCode],
+		[dbo].[LOC_City].[StateID],
+		[dbo].[LOC_City].[CountryID],
+		[dbo].[LOC_City].[CreationDate],
+		[dbo].[LOC_City].[Modified]
+	)
+	values
+	(
+		@CityName,
+		@CityCode,
+		@StateID,
+		@CountryID,
+		GETDATE(),
+		GETDATE()
+	)
+End
+
+Exec PR_LOC_City_Insert 'Ahmedabad','Abd',1,1
+Select * from LOC_City

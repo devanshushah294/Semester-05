@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/City/Views/City/CityAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xDaXR5XENpdHlBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/City/Views/City/CityView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xDaXR5XENpdHlWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/City/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/City/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Semester-05/.NET/MySecondApplication/MySecondApplication/Areas/Country/Views/Country/CountryAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xDb3VudHJ5XENvdW50cnlBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

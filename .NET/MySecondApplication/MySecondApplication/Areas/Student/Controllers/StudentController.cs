@@ -41,35 +41,35 @@ namespace MySecondApplication.Areas.Student.Controllers
             return RedirectToAction("StudentView");
         }
         
-        public IActionResult StudentAddEdit(int? id)
-        {
-            string connectionString = this._configuration.GetConnectionString("myConnectionString");
-            SqlConnection conn = new SqlConnection(connectionString);
-            DataTable dt = new DataTable();
-            conn.Open();
-            SqlCommand cmd = conn.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "Select CityID,CityName from LOC_City";
-            List<City> list = new List<City>();
-            using (SqlDataReader reader = cmd.ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    City city = new City();
-                    {
-                        city.CityId = Convert.ToInt32(reader["CityID"]);
-                        city.CityName = reader["CityName"].ToString();
-                    };
-                    list.Add(city);
-                }
-            }
-            conn.Close();
-            var model = new StudentModel
-            {
-                Cities = list
-            };
-            return View(model);
+        //public IActionResult StudentAddEdit(int? id)
+        //{
+        //    string connectionString = this._configuration.GetConnectionString("myConnectionString");
+        //    SqlConnection conn = new SqlConnection(connectionString);
+        //    DataTable dt = new DataTable();
+        //    conn.Open();
+        //    SqlCommand cmd = conn.CreateCommand();
+        //    cmd.CommandType = CommandType.Text;
+        //    cmd.CommandText = "Select CityID,CityName from LOC_City";
+        //    List<City> list = new List<City>();
+        //    using (SqlDataReader reader = cmd.ExecuteReader())
+        //    {
+        //        while (reader.Read())
+        //        {
+        //            City city = new City();
+        //            {
+        //                city.CityId = Convert.ToInt32(reader["CityID"]);
+        //                city.CityName = reader["CityName"].ToString();
+        //            };
+        //            list.Add(city);
+        //        }
+        //    }
+        //    conn.Close();
+        //    var model = new StudentModel
+        //    {
+        //        Cities = list
+        //    };
+        //    return View(model);
 
-        }
+        //}
     }
 }

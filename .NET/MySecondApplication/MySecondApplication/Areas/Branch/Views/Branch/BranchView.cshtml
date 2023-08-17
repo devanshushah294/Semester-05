@@ -31,7 +31,7 @@
                 @row["Modified"]
             </td>
             <td class="d-flex justify-content-between align-items-right">
-                <form method="post" asp-area="Branch" asp-controller="Branch" asp-action="BranchDelete" asp-route-id="@row["BranchID"]">
+                <form method="post" asp-area="Branch" asp-controller="Branch" asp-action="DeleteBranch" asp-route-id="@row["BranchID"]">
                     <button type="submit" class="btn-danger mx-1    ">Delete</button>
                 </form>
                 <form method="post" asp-area="Branch" asp-controller="Branch" asp-action="BranchAddEdit" asp-route-id="@row["BranchID"]">
