@@ -1,6 +1,54 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<form></form>
+
+@using MySecondApplication.Areas.City.Models;
+@model CityModel;
+
+<form method="post">
+    <div class="form-group">
+        <label>Country</label>
+        <select class="" asp-for="selectedCountryID" asp-items="@(new SelectList(Model.countryList, "CountryID", "CountryName"))">
+            <option selected disabled hidden>Select the country</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>State</label>
+        <select class="" asp-for="selectedStateID" id="stateDropdown">
+            <option selected disabled hidden>Select the State</option>
+        </select>
+    </div>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            updateStateDropdown($("#selectedCountryID").val());
+
+            $("#selectedCountryID").change(function () {
+                var selectedCountryID = $(this).val();
+                updateStateDropdown(selectedCountryID);
+            });
+
+            function updateStateDropdown(CountryID) {
+                $.ajax({
+                    url: "/City/City/GetStatesByCountryID", // Your server-side action to fetch states
+                    type: "GET",
+                    data: { CountryID: CountryID }, // Note the change in parameter name
+                    dataType: "json",
+                    success: function (data) {
+                        var stateDropdown = $("#stateDropdown");
+                        stateDropdown.empty();
+                        $.each(data, function (index, state) {
+                            stateDropdown.append($("<option>").text(state.StateName).val(state.StateID));
+                        });
+                    },
+                    error: function () {
+                        console.log("Error fetching states.");
+                    }
+                });
+            }
+        });
+    </script>
+}
