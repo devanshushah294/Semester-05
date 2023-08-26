@@ -111,6 +111,23 @@ Begin
 		GETDATE()
 	)
 End
+Create or Alter Procedure [dbo].[PR_LOC_City_Update]
+@CityID int,
+@CityName varchar(100),
+@CityCode varchar(50),
+@StateID int,
+@CountryID int
+as
+Begin
+	Update LOC_City 
+	set
+		[dbo].[LOC_City].[CityName] = @CityName,
+		[dbo].[LOC_City].[CityCode] = @CityCode,
+		[dbo].[LOC_City].[StateID] = @StateID,
+		[dbo].[LOC_City].[CountryID] = @CountryID,
+		[dbo].[LOC_City].[Modified] = GETDATE()
+	where [dbo].[LOC_City].[CityID] = @CityID
+End
 
 Exec PR_LOC_City_Insert 'Ahmedabad','Abd',1,1
 Select * from LOC_City

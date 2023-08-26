@@ -35,7 +35,7 @@
                 <form method="post" asp-area="City" asp-controller="City" asp-action="DeleteCity" asp-route-CityID="@row["CityID"]">
                     <button type="submit" class="btn-danger mx-1">Delete</button>
                 </form>
-                <form method="post" asp-area="Branch" asp-controller="City" asp-action="CityAddEdit" asp-route-CityID="@row["CityID"]">
+                <form method="post" asp-area="City" asp-controller="City" asp-action="CityAddEdit" asp-route-CityID="@row["CityID"]">
                     <button class="btn-primary" type="submit">Edit</button>
                 </form>
             </td>
