@@ -76,19 +76,19 @@
             });
         }
 
-        //$(document).ready(function () {
-        //    updateStateDropdown(); // Initialize the state dropdown based on the initial selected country
+        $(document).ready(function () {
+            updateStateDropdown(); // Initialize the state dropdown based on the initial selected country
 
-        //    $("#selectedCountryID").change(function () {
-        //        updateStateDropdown();
-        //    });
+            $("#selectedCountryID").change(function () {
+                updateStateDropdown();
+            });
 
-        //    // Trigger updateStateDropdown when editing (assuming you have a hidden input field for selectedStateID)
-        //    var selectedStateID = $("#selectedCountryID").val();
-        //    if (selectedStateID != null) {
-        //        updateStateDropdown();
-        //    }
-        //});
+            // Trigger updateStateDropdown when editing (assuming you have a hidden input field for selectedStateID)
+            var selectedStateID = $("#selectedCountryID").val();
+            if (selectedStateID != null) {
+                updateStateDropdown();
+            }
+        });
 
     </script>
 }

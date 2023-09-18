@@ -18,5 +18,6 @@ namespace MySecondApplication.Areas.City.Models
         public int selectedCountryID { get; set; }
         public List<StateModel> stateList { get; set; }
         public List<CountryModel> countryList { get; set; }
+
     }
 }

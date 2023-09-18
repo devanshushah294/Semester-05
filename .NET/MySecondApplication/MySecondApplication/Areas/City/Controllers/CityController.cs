@@ -3,6 +3,8 @@ using System.Data.SqlClient;
 using System.Data;
 using MySecondApplication.Areas.City.Models;
 using NuGet.Protocol;
+using System.Drawing.Imaging;
+using System.Security.Cryptography.X509Certificates;
 
 namespace MySecondApplication.Areas.City.Controllers
 {
@@ -62,7 +64,7 @@ namespace MySecondApplication.Areas.City.Controllers
                     list1.Add(country);
                 }
             }
-            
+
             conn.Close();
             CityModel city = new CityModel();
             city.countryList = list1;
@@ -127,16 +129,16 @@ namespace MySecondApplication.Areas.City.Controllers
             SqlConnection conn = new SqlConnection(connStr);
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.StoredProcedure;
-            if(cm.CityID == null) 
+            if (cm.CityID == null)
             {
                 cmd.CommandText = "PR_LOC_City_Insert";
             }
             else
             {
                 cmd.CommandText = "PR_LOC_City_Update";
-                cmd.Parameters.AddWithValue("@CityID",cm.CityID);
+                cmd.Parameters.AddWithValue("@CityID", cm.CityID);
             }
-            cmd.Parameters.AddWithValue("@CityName",cm.CityName);
+            cmd.Parameters.AddWithValue("@CityName", cm.CityName);
             cmd.Parameters.AddWithValue("@CityCode", cm.Citycode);
             cmd.Parameters.AddWithValue("@StateID", cm.selectedStateID);
             cmd.Parameters.AddWithValue("@CountryID", cm.selectedCountryID);
@@ -144,6 +146,25 @@ namespace MySecondApplication.Areas.City.Controllers
             cmd.ExecuteNonQuery();
             conn.Close();
             return RedirectToAction("CityView");
+        }
+        public IActionResult Filter(string countryName, string stateName, string cityName, string cityCode)
+        {
+            string str = this._configuration.GetConnectionString("myConnectionString");
+            SqlConnection conn = new SqlConnection(str);
+            conn.Open();
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "PR_LOC_CITY_Filter_CountryName_StateName_CityName_CityCode";
+            cmd.Parameters.AddWithValue("@CityName", cityName);
+            cmd.Parameters.AddWithValue("@StateName", stateName);
+            cmd.Parameters.AddWithValue("@CityCode", cityCode);
+            cmd.Parameters.AddWithValue("@CountryName", countryName);
+
+            SqlDataReader dr = cmd.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Load(dr);
+            conn.Close();
+            return View("CityView", dataTable);
         }
 
     }

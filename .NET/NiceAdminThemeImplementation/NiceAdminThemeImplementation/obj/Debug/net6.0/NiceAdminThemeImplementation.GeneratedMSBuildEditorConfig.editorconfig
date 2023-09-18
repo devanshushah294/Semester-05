@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NiceAdminThemeImplementation
+build_property.RootNamespace = NiceAdminThemeImplementation
+build_property.ProjectDir = E:\Semester-05\.NET\NiceAdminThemeImplementation\NiceAdminThemeImplementation\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Semester-05\.NET\NiceAdminThemeImplementation\NiceAdminThemeImplementation
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Branch/Views/Branch/BranchAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXEJyYW5jaFxCcmFuY2hBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Branch/Views/Branch/BranchView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXEJyYW5jaFxCcmFuY2hWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Branch/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Branch/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQnJhbmNoXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/City/Views/City/CityAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xDaXR5XENpdHlBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/City/Views/City/CityView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xDaXR5XENpdHlWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/City/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/City/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2l0eVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Country/Views/Country/CountryAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xDb3VudHJ5XENvdW50cnlBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Country/Views/Country/CountryView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xDb3VudHJ5XENvdW50cnlWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Country/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Country/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ291bnRyeVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/State/Views/State/StateAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcU3RhdGVcU3RhdGVBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/State/Views/State/StateView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcU3RhdGVcU3RhdGVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/State/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/State/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3RhdGVcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Student/Views/Student/StudentAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTdHVkZW50XFN0dWRlbnRBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Student/Views/Student/StudentView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTdHVkZW50XFN0dWRlbnRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Student/Views/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Areas/Student/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Semester-05/.NET/NiceAdminThemeImplementation/NiceAdminThemeImplementation/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ovqjzhnocv

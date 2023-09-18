@@ -1,0 +1,68 @@
+﻿@*@model MySecondApplication.Models.RegistrationViewModel;
+
+@using (Html.BeginForm("FormDemoView", "FormDemo", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.LabelFor(m => m.UserName)
+    @Html.TextBoxFor(m => m.UserName)
+    @Html.ValidationMessageFor(m => m.UserName, "")
+    <br/>
+    
+    @Html.LabelFor(m => m.Password)
+    @Html.PasswordFor(m => m.Password)
+    @Html.ValidationMessageFor(m => m.Password, "")
+    <br/>
+
+    @Html.LabelFor(m => m.ConfirmPassword)
+    @Html.PasswordFor(m => m.ConfirmPassword)
+    @Html.ValidationMessageFor(m => m.ConfirmPassword, "")
+    <br/>
+
+    @Html.LabelFor(m => m.Email)
+    @Html.TextBoxFor(m => m.Email)
+    @Html.ValidationMessageFor(m => m.Email, "")
+    <br/>
+
+    @Html.LabelFor(m => m.MobileNumber)
+    @Html.TextBoxFor(m => m.MobileNumber)
+    @Html.ValidationMessageFor(m => m.MobileNumber, "")
+    <br/>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+
+}
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}*@
+@using (Html.BeginForm("register", "Account", FormMethod.Post))
+{
+    <div>
+        @Html.Label("UserName", "Username:")
+        @Html.TextBox("UserName")
+    </div>
+
+    <div>
+        @Html.Label("Password", "Password:")
+        @Html.Password("Password")
+    </div>
+
+    <div>
+        @Html.Label("ConfirmPassword", "Confirm Password:")
+        @Html.Password("ConfirmPassword")
+    </div>
+
+    <div>
+        @Html.Label("Email", "Email:")
+        @Html.TextBox("Email")
+    </div>
+
+    <div>
+        @Html.Label("MobileNumber", "Mobile Number:")
+        @Html.TextBox("MobileNumber")
+    </div>
+
+    <div>
+        <button type="submit">Register</button>
+    </div>
+}
