@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.CompilerServices;
 
 namespace NiceAdminThemeImplementation.Areas.Country.Models
 {
@@ -9,6 +10,7 @@ namespace NiceAdminThemeImplementation.Areas.Country.Models
         public string CountryName { get; set; }
         [Required]
         public string CountryCode { get; set; }
+
         public DateTime? Created { get; set; }
         public DateTime? Modified { get; set; }
     }

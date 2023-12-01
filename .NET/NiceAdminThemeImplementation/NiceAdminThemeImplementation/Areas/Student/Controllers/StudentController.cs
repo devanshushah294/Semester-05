@@ -1,18 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MySecondApplication.Areas.Student.Models;
+using NiceAdminThemeImplementation.Areas.Student.Models;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace MySecondApplication.Areas.Student.Controllers
+namespace NiceAdminThemeImplementation.Areas.Student.Controllers
 {
     [Area("Student")]
     public class StudentController : Controller
     {
+
         private readonly IConfiguration _configuration;
         public StudentController(IConfiguration configuration)
         {
             _configuration = configuration;
         }
+
+        #region StudentView
         public IActionResult StudentView()
         {
             string connectionString = this._configuration.GetConnectionString("myConnectionString");
@@ -26,6 +29,9 @@ namespace MySecondApplication.Areas.Student.Controllers
             dt.Load(objDataReader);
             return View(dt);
         }
+        #endregion
+
+        #region Delete Student
         public IActionResult DeleteStudent(int id)
         {
             string connectionString = this._configuration.GetConnectionString("myConnectionString");
@@ -39,7 +45,9 @@ namespace MySecondApplication.Areas.Student.Controllers
 
             return RedirectToAction("StudentView");
         }
+        #endregion
 
+        #region Student Add Edit View
         public IActionResult StudentAddEdit(int? id)
         {
             string connectionString = this._configuration.GetConnectionString("myConnectionString");
@@ -110,6 +118,10 @@ namespace MySecondApplication.Areas.Student.Controllers
             }
             return View(model);
         }
+        #endregion
+
+        #region Save for Add Edit
+
         public IActionResult Save(StudentModel sm)
         {
             string str = this._configuration.GetConnectionString("myConnectionString");
@@ -120,6 +132,7 @@ namespace MySecondApplication.Areas.Student.Controllers
             if (sm.StudentID == null)
             {
                 cmd.CommandText = "PR_MST_Student_Insert";
+                cmd.Parameters.AddWithValue("@Password", sm.Password);
             }
             else
             {
@@ -136,10 +149,33 @@ namespace MySecondApplication.Areas.Student.Controllers
             cmd.Parameters.AddWithValue("@BirthDate", sm.BirthDate);
             cmd.Parameters.AddWithValue("@IsActive", 1);
             cmd.Parameters.AddWithValue("@Gender", sm.Gender);
-            cmd.Parameters.AddWithValue("@Password", sm.Password);
+            
             cmd.ExecuteNonQuery();
             conn.Close();
             return RedirectToAction("StudentView");
         }
+        #endregion
+
+        #region Student Filter
+        public IActionResult Filter(string StudentName, string BranchName, string CityName)
+        {
+            string str = this._configuration.GetConnectionString("myConnectionString");
+            SqlConnection conn = new SqlConnection(str);
+            conn.Open();
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "PR_MST_Student_Filter_StudentName_BranchName_CityName";
+            cmd.Parameters.AddWithValue("@StudentName", StudentName);
+            cmd.Parameters.AddWithValue("@BranchName", BranchName);
+            cmd.Parameters.AddWithValue("@CityName", CityName);
+
+
+            SqlDataReader dr = cmd.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Load(dr);
+            conn.Close();
+            return View("StudentView", dataTable);
+        }
+        #endregion
     }
 }

@@ -90,3 +90,22 @@ END
 Exec PR_LOC_Country_Insert 'INDIA','IND','',''
 Exec PR_LOC_Country_Update 1,'INDIA','IND'
 Exec PR_LOC_Country_SelectAll
+
+-- filter
+Create or Alter PROC [dbo].[PR_LOC_Country_Filter_CountryName_CountryCode]
+@CountryName varchar(50) = null ,
+@CountryCode varchar(50) = null 
+as
+begin
+Select 
+	[dbo].[LOC_Country].[CountryCode],
+	[dbo].[LOC_Country].[CountryID],
+	[dbo].[LOC_Country].[CountryName],
+	[dbo].[LOC_Country].[Created],
+	[dbo].[LOC_Country].[Modified]
+from [dbo].[LOC_Country]
+
+Where (@CountryName is null OR [dbo].[LOC_Country].[CountryName] like '%'+@CountryName+'%')
+AND   (@CountryCode is null OR [dbo].[LOC_Country].[CountryCode] like '%'+@CountryCode+'%')
+
+end

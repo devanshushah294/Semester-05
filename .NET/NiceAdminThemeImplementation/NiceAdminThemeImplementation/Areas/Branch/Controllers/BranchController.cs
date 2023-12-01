@@ -14,10 +14,15 @@ namespace NiceAdminThemeImplementation.Areas.Branch.Controllers
     public class BranchController : Controller
     {
         private readonly IConfiguration _configuration;
+
+        #region Constructor
         public BranchController(IConfiguration configuration)
         {
             _configuration = configuration;
         }
+        #endregion
+
+        #region Branch View
         public IActionResult BranchView()
         {
             try
@@ -52,6 +57,9 @@ namespace NiceAdminThemeImplementation.Areas.Branch.Controllers
                 return View();
             }
         }
+        #endregion
+
+        #region Branch Delete
         public IActionResult DeleteBranch(int id)
         {
             string connectionString = this._configuration.GetConnectionString("myConnectionString");
@@ -65,6 +73,9 @@ namespace NiceAdminThemeImplementation.Areas.Branch.Controllers
             conn.Close();
             return RedirectToAction("BranchView");
         }
+        #endregion
+
+        #region Add Edit View
         public IActionResult BranchAddEdit(int? id)
         {
             if (id == null)
@@ -94,12 +105,21 @@ namespace NiceAdminThemeImplementation.Areas.Branch.Controllers
             }
 
         }
-        public IActionResult AddEditBranch(BranchModel bm){
+        #endregion
+
+        #region Save Add Edit Branch
+        public IActionResult AddEditBranch(BranchModel bm)
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("BranchAddEdit", bm);
+            }
             try
             {
                 string connectionString = this._configuration.GetConnectionString("myConnectionString");
 
-                using (SqlConnection conn = new SqlConnection(connectionString)){
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
                     conn.Open();
 
                     using (SqlCommand cmd = conn.CreateCommand())
@@ -119,9 +139,6 @@ namespace NiceAdminThemeImplementation.Areas.Branch.Controllers
                         cmd.Parameters.AddWithValue("@BranchName", bm.BranchName);
                         cmd.Parameters.AddWithValue("@BranchCode", bm.BranchCode);
 
-                        if (bm.Created != null) { cmd.Parameters.AddWithValue("@Created", bm.Created); }
-                        if (bm.Modified != null) { cmd.Parameters.AddWithValue("@Modified", bm.Modified); }
-
                         int rowsAffected = cmd.ExecuteNonQuery();
                     }
                     conn.Close();
@@ -139,10 +156,26 @@ namespace NiceAdminThemeImplementation.Areas.Branch.Controllers
             }
         }
 
+        #endregion
 
+        #region Filter
+        public IActionResult BranchFilter(string BranchName, string BranchCode)
+        {
+            String connectionStr = this._configuration.GetConnectionString("myConnectionString");
+            DataTable dt = new DataTable();
+            SqlConnection conn = new SqlConnection(connectionStr);
+            conn.Open();
+            SqlCommand objCmd = conn.CreateCommand();
+            objCmd.CommandType = CommandType.StoredProcedure;
+            objCmd.CommandText = "PR_MST_Branch_Filter";
+            objCmd.Parameters.AddWithValue("@BranchName", BranchName);
+            objCmd.Parameters.AddWithValue("@BranchCode", BranchCode);
+            SqlDataReader objDataReader = objCmd.ExecuteReader();
+            dt.Load(objDataReader);
+            conn.Close();
+            return View("BranchView", dt);
+        }
 
-
-
-
+        #endregion
     }
 }

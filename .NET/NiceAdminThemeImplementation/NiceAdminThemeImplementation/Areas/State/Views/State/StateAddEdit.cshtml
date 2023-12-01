@@ -1,11 +1,12 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-@using MySecondApplication.Areas.State.Models;
+@using NiceAdminThemeImplementation.Areas.State.Models;
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model StateModel;
+
 <form method="post" asp-area="State" asp-controller="State" asp-action="AddEditState">
     <input type="hidden" asp-for="StateId" />
     <div class="form-group">

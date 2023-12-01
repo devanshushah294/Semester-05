@@ -143,7 +143,16 @@ namespace MySecondApplication.Areas.City.Controllers
             cmd.Parameters.AddWithValue("@StateID", cm.selectedStateID);
             cmd.Parameters.AddWithValue("@CountryID", cm.selectedCountryID);
             conn.Open();
-            cmd.ExecuteNonQuery();
+            int rowsAffected = cmd.ExecuteNonQuery();
+            Console.WriteLine(rowsAffected);
+            if (rowsAffected == 1)
+            {
+                TempData["r"] = rowsAffected.ToString();
+            }
+            else
+            {
+                TempData["r"] = -1;
+            }
             conn.Close();
             return RedirectToAction("CityView");
         }

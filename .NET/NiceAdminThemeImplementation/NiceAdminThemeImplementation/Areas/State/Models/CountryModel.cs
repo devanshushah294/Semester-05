@@ -1,4 +1,4 @@
-﻿namespace MySecondApplication.Areas.State.Models
+﻿namespace NiceAdminThemeImplementation.Areas.State.Models
 {
     public class CountryModel
     {

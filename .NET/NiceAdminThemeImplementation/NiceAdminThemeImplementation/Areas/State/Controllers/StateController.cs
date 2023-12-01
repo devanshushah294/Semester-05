@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MySecondApplication.Areas.State.Models;
+using NiceAdminThemeImplementation.Areas.State.Models;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace MySecondApplication.Areas.State.Controllers
+namespace NiceAdminThemeImplementation.Areas.State.Controllers
 {
     [Area("State")]
     public class StateController : Controller
@@ -112,6 +112,24 @@ namespace MySecondApplication.Areas.State.Controllers
             cmd.ExecuteNonQuery();
             conn.Close();
             return RedirectToAction("StateView");
+        }
+
+        public IActionResult Filter(String? StateName, String? StateCode, string? CountryName)
+        {
+            String connStr = this._configuration.GetConnectionString("myConnectionString");
+            SqlConnection conn = new SqlConnection(connStr);
+            conn.Open();
+            SqlCommand objCmd = conn.CreateCommand();
+            objCmd.CommandType = CommandType.StoredProcedure;
+            objCmd.CommandText = "PR_LOC_State_Filter_StateName_StateCode_CountryName";
+            objCmd.Parameters.AddWithValue("@StateCode", StateCode);
+            objCmd.Parameters.AddWithValue("@CountryName", CountryName);
+            objCmd.Parameters.AddWithValue("@StateName", StateName);
+            SqlDataReader objDataReader = objCmd.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Load(objDataReader);
+            conn.Close();
+            return View("StateView", dataTable);
         }
     }
 }

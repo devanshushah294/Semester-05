@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
-namespace MySecondApplication.Areas.Student.Models
+namespace NiceAdminThemeImplementation.Areas.Student.Models
 {
     public class StudentModel
     {

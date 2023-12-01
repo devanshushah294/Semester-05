@@ -2,7 +2,6 @@
 using System.Data.SqlClient;
 using System.Data;
 using NiceAdminThemeImplementation.Areas.City.Models;
-using NuGet.Protocol;
 using System.Drawing.Imaging;
 using System.Security.Cryptography.X509Certificates;
 
@@ -143,7 +142,15 @@ namespace NiceAdminThemeImplementation.Areas.City.Controllers
             cmd.Parameters.AddWithValue("@StateID", cm.selectedStateID);
             cmd.Parameters.AddWithValue("@CountryID", cm.selectedCountryID);
             conn.Open();
-            cmd.ExecuteNonQuery();
+            int rowsAffected = cmd.ExecuteNonQuery();
+            if (rowsAffected == 1)
+            {
+                TempData["r"] = rowsAffected.ToString();
+            }
+            else
+            {
+                TempData["r"] = -1;
+            }
             conn.Close();
             return RedirectToAction("CityView");
         }

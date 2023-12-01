@@ -56,6 +56,7 @@ namespace NiceAdminThemeImplementation.Areas.Country.Controllers
                 if (rowsAffected > 0)
                 {
                     // Successful deletion
+                    TempData["r"] = "1";
                     return RedirectToAction("CountryView");
                 }
                 else
@@ -67,6 +68,7 @@ namespace NiceAdminThemeImplementation.Areas.Country.Controllers
             }
             catch (Exception ex)
             {
+                TempData["r"] = "-1";
                 // Handle exceptions
                 // You can log the exception, show an error message, or redirect to an error page
                 return RedirectToAction("CountryView"); // Redirect back to the list view
@@ -107,60 +109,77 @@ namespace NiceAdminThemeImplementation.Areas.Country.Controllers
         }
         public IActionResult AddCountry(CountryModel cm)
         {
-            try
+            if (ModelState.IsValid)
             {
-                if (cm.Id == null)
-                {
-                    String connectionStr = this._configuration.GetConnectionString("myConnectionString");
-                    SqlConnection conn = new SqlConnection(connectionStr);
-                    conn.Open();
-                    SqlCommand objCmd = conn.CreateCommand();
-                    objCmd.CommandType = CommandType.StoredProcedure;
-                    objCmd.CommandText = "PR_LOC_Country_Insert";
-                    objCmd.Parameters.AddWithValue("@CountryName", cm.CountryName);
-                    objCmd.Parameters.AddWithValue("@CountryCode", cm.CountryCode);
-                    if (cm.Created != null) { objCmd.Parameters.AddWithValue("@Created", cm.Created); }
-                    if (cm.Modified != null) { objCmd.Parameters.AddWithValue("@Modified", cm.Modified); }
-                    int rowsAffected = objCmd.ExecuteNonQuery();
-                    conn.Close();
 
-                    if (rowsAffected > 0)
+                try
+                {
+                    if (cm.Id == null)
                     {
-                        // Successful deletion
-                        return RedirectToAction("CountryView");
+                        String connectionStr = this._configuration.GetConnectionString("myConnectionString");
+                        SqlConnection conn = new SqlConnection(connectionStr);
+                        conn.Open();
+                        SqlCommand objCmd = conn.CreateCommand();
+                        objCmd.CommandType = CommandType.StoredProcedure;
+                        objCmd.CommandText = "PR_LOC_Country_Insert";
+                        objCmd.Parameters.AddWithValue("@CountryName", cm.CountryName);
+                        objCmd.Parameters.AddWithValue("@CountryCode", cm.CountryCode);
+                        int rowsAffected = objCmd.ExecuteNonQuery();
+                        conn.Close();
+
+                        if (rowsAffected > 0)
+                        {
+                            // Successful deletion
+                            return RedirectToAction("CountryView");
+                        }
+                        else
+                        {
+                            // Deletion failed
+                            // You can handle this scenario according to your application's requirements
+                            return RedirectToAction("CountryView"); // Redirect back to the list view
+                        }
                     }
                     else
                     {
-                        // Deletion failed
-                        // You can handle this scenario according to your application's requirements
-                        return RedirectToAction("CountryView"); // Redirect back to the list view
+                        String connectionStr = this._configuration.GetConnectionString("myConnectionString");
+                        SqlConnection conn = new SqlConnection(connectionStr);
+                        conn.Open();
+                        SqlCommand objCmd = conn.CreateCommand();
+                        objCmd.CommandType = CommandType.StoredProcedure;
+                        objCmd.CommandText = "PR_LOC_Country_Update";
+                        objCmd.Parameters.AddWithValue("@CountryID", cm.Id);
+                        objCmd.Parameters.AddWithValue("@CountryName", cm.CountryName);
+                        objCmd.Parameters.AddWithValue("@CountryCode", cm.CountryCode);
+                        int rowsAffected = objCmd.ExecuteNonQuery();
+                        conn.Close();
+
                     }
                 }
-                else
+                catch (Exception ex)
                 {
-                    String connectionStr = this._configuration.GetConnectionString("myConnectionString");
-                    SqlConnection conn = new SqlConnection(connectionStr);
-                    conn.Open();
-                    SqlCommand objCmd = conn.CreateCommand();
-                    objCmd.CommandType = CommandType.StoredProcedure;
-                    objCmd.CommandText = "PR_LOC_Country_Update";
-                    objCmd.Parameters.AddWithValue("@CountryID", cm.Id);
-                    objCmd.Parameters.AddWithValue("@CountryName", cm.CountryName);
-                    objCmd.Parameters.AddWithValue("@CountryCode", cm.CountryCode);
-                    if (cm.Created != null) { objCmd.Parameters.AddWithValue("@Created", cm.Created); }
-                    if (cm.Modified != null) { objCmd.Parameters.AddWithValue("@Modified", cm.Modified); }
-                    int rowsAffected = objCmd.ExecuteNonQuery();
-                    conn.Close();
-
+                    // Handle exceptions
+                    // You can log the exception, show an error message, or redirect to an error page
+                    return RedirectToAction("CountryView"); // Redirect back to the list view
                 }
+                return RedirectToAction("CountryView");
             }
-            catch (Exception ex)
-            {
-                // Handle exceptions
-                // You can log the exception, show an error message, or redirect to an error page
-                return RedirectToAction("CountryView"); // Redirect back to the list view
-            }
-            return RedirectToAction("CountryView");
+            return View("CountryAdd", cm);
+        }
+        public IActionResult Filter(String? CountryName, String? CountryCode)
+        {
+            String connStr = this._configuration.GetConnectionString("myConnectionString");
+            SqlConnection conn = new SqlConnection(connStr);
+            conn.Open();
+            SqlCommand objCmd = conn.CreateCommand();
+            objCmd.CommandType = CommandType.StoredProcedure;
+            objCmd.CommandText = "PR_LOC_Country_Filter_CountryName_CountryCode";
+            objCmd.Parameters.AddWithValue("@CountryCode", CountryCode);
+            objCmd.Parameters.AddWithValue("@CountryName", CountryName);
+            SqlDataReader objDataReader = objCmd.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Load(objDataReader);
+            conn.Close();
+            return View("CountryView", dataTable);
         }
     }
 }

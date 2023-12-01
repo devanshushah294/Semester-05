@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MySecondApplication.Areas.State.Models
+namespace NiceAdminThemeImplementation.Areas.State.Models
 {
     public class StateModel
     {

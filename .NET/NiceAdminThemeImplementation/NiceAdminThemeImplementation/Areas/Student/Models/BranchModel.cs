@@ -1,4 +1,4 @@
-﻿namespace MySecondApplication.Areas.Student.Models
+﻿namespace NiceAdminThemeImplementation.Areas.Student.Models
 {
     public class BranchModel
     {

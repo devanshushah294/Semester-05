@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\profile-img.jpg"
     },
     {
+      "Id": "E:\\Semester-05\\.NET\\NiceAdminThemeImplementation\\NiceAdminThemeImplementation\\wwwroot\\assets\\img\\profile-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\profile-img2.jpg"
+    },
+    {
       "Id": "E:\\Semester-05\\.NET\\NiceAdminThemeImplementation\\NiceAdminThemeImplementation\\wwwroot\\assets\\img\\slides-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\slides-1.jpg"
     },

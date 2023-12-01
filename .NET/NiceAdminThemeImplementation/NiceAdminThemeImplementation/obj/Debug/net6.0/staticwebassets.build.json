@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6F9vV4qzeEv1VcDKZDLfEYfX40YbDlJJ15OIBPDVNw4=",
+  "Hash": "9tUN7zoL58/quDjf7NaRYgIpoGUN+RA9vrL1TQZLgyE=",
   "Source": "NiceAdminThemeImplementation",
   "BasePath": "_content/NiceAdminThemeImplementation",
   "Mode": "Default",
@@ -389,6 +389,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\profile-img.jpg"
+    },
+    {
+      "Identity": "E:\\Semester-05\\.NET\\NiceAdminThemeImplementation\\NiceAdminThemeImplementation\\wwwroot\\assets\\img\\profile-img2.jpg",
+      "SourceId": "NiceAdminThemeImplementation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Semester-05\\.NET\\NiceAdminThemeImplementation\\NiceAdminThemeImplementation\\wwwroot\\",
+      "BasePath": "_content/NiceAdminThemeImplementation",
+      "RelativePath": "assets/img/profile-img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\profile-img2.jpg"
     },
     {
       "Identity": "E:\\Semester-05\\.NET\\NiceAdminThemeImplementation\\NiceAdminThemeImplementation\\wwwroot\\assets\\img\\slides-1.jpg",

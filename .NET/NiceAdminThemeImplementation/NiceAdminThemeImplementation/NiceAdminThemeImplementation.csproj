@@ -10,8 +10,14 @@
     <Folder Include="Areas\Branch\Data\" />
     <Folder Include="Areas\City\Data\" />
     <Folder Include="Areas\Country\Data\" />
+    <Folder Include="Areas\Login\Data\" />
     <Folder Include="Areas\State\Data\" />
     <Folder Include="Areas\Student\Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
   </ItemGroup>
 
 </Project>
